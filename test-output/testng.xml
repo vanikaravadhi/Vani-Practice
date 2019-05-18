@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Testing groups">
+
+<listeners>
+<!-- this is at test level <listener class-name="Analyzer.RettryAnalyzer"/>
+ -->
+ <!-- the below line is for run time level for n number of tesst cases -->
+<listener class-name="Analyzer.MyTransformer"/>
+</listeners>
+<test name="test1">
+<!-- 
+<parameter name="username" value="kvani.roopa@gmail.com"/>
+
+<parameter name="password" value="roopasiva@123"/>
+ -->
+
+<classes>
+
+<class name="GoogleTest.setUp">
+</class>
+</classes>
+</test>
+</suite>

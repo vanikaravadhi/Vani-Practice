@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Yahoo]">
+  <test thread-count="5" name="Yahoo info test(failed)">
+    <classes>
+      <class name="TestNG.YahooInfoTest">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- TestNG.YahooInfoTest -->
+    </classes>
+  </test> <!-- Yahoo info test(failed) -->
+  <test thread-count="5" name="sample test(failed)">
+    <classes>
+      <class name="DataProvider.TestCases">
+        <methods>
+          <include name="testB"/>
+          <include name="testA"/>
+        </methods>
+      </class> <!-- DataProvider.TestCases -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Yahoo] -->

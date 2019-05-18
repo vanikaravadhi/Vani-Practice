@@ -1,0 +1,8 @@
+<Elements>
+<username locator="id" value="txtUsername" ></username>
+<password locator="id" value="txtPassword"></password>
+<login locator="id" value="btnLogin"></login>
+<tittle locator="xpath" value="//img[@alt='OrangeHRM']"/>
+<admin locator="xpath" value="//b[text()='Admin']"/>
+
+</Elements>

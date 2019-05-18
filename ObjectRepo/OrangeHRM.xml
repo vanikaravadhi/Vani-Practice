@@ -1,0 +1,6 @@
+<Elements>
+<login locator="id" value="btnLogin"/>
+<admin locator="id" value="menu_admin_viewAdminModule"/>
+<username locator="xpath" value="//input[@id='searchSystemUser_userName']"/>
+<employeename locator="xpath" value="//input[@id='searchSystemUser_employeeName_empName']"/> 
+</Elements>
